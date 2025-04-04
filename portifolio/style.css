@@ -1,0 +1,138 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#heder{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#menu{
+    text-align: right;
+    margin-top: 50px;
+}
+
+#menu, ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+}
+
+#menu li{
+    display: inline-block;
+    margin-left: 20px; 
+    font-style: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: ndormal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #070f18;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#buttonCta{
+    background-color: blue;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+}
+
+#headerCta p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+
+}
+
+#headerCta h1{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+   color: #000000;
+
+}
+
+#headerImg{
+margin-left: 42px;
+ }
+
+#headerImg img{
+width: 100%;
+}
+
+.headerLogo{
+    text-align: center;
+ }
+
+ #clients{
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+ #headerClientText{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+   color: #070F18;
+
+ }
+
+ h2.red{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #F75C4E;
+    
+}
+
+.h1.black{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: black;
+}
+
+
+
+
+
+
+
+
